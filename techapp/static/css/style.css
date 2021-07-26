@@ -91,14 +91,9 @@ button a{
     color: black;
     
 }
-.btn{
-    margin-left: 370px;
-}
-.bnn{
-    margin-left: 500px;
-}
 
-@media screen and (max-width:480px) {
+
+@media (max-width:1080px) {
     header{
         background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/emt.jpg);
         height: 100vh;
@@ -150,11 +145,6 @@ button a{
         background-color: white;
         color: #000; 
     }
-    .btn{
-        margin-left: 70px;
-    }
-    .bnn{
-        margin-left: 120px;
-    }
+    
     
 }

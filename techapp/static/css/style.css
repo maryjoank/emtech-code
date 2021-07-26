@@ -98,7 +98,7 @@ button a{
     margin-left: 500px;
 }
 
-@media (max-width:1190px) {
+@media screen and (max-width:1750px) {
     header{
         background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/emt.jpg);
         height: 100vh;

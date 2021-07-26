@@ -1,1 +1,1 @@
-web: gunicorn emtech.wsgi
+web: gunicorn emtech.wsgi --log-file -

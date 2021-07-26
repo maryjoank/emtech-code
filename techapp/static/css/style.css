@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/emt2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid whitesmoke;
+    border-radius: 43px;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+ul li.active a{
+    background-color: white;
+    color: #000;
+
+}
+.logo img{
+    float: left;
+    width: 100px;
+    height: auto;
+    margin-top: 25px;
+    margin-left: 25px;
+    
+}
+.center{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-50% -50%);
+    user-select: none;
+}
+.center h1{
+    color: white;
+    font-size: 120px;
+    font-weight: bolder;
+    width: 900px; 
+    margin-left: 100px; 
+}
+.center h6{
+    color: white;
+    font-size: 19px;
+    font-weight: bolder;
+    width: 900px; 
+    margin-left: 120px; 
+}
+.center .button{
+    margin: 25px 90px;
+}
+.button button{
+    height: 50px;
+    width: 500px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background: gray;
+    border: 1px solid gray;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-top: 25px;
+    transition: 0.6s ease;
+    
+}
+button:hover{  
+    background-color: white;
+    color: #000; 
+}
+button a{
+    text-decoration: none;
+    color: black;
+    
+}
+.btn{
+    margin-left: 370px;
+}
+.bnn{
+    margin-left: 500px;
+}
+
+@media (max-width:1190px) {
+    header{
+        background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/emt.jpg);
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+    }
+    .main{
+        background-size: 1150px;
+    }
+    .center{
+        position: absolute;
+        top: 35%;
+        left: 15%;
+        transform: translate(-30% -30%);
+        user-select: none;
+    }
+    .center h1{
+        color: white;
+        font-size: 60px;
+        font-weight: bolder;
+        width: 300px; 
+        margin-left: 20px; 
+    }
+    .center h6{
+        color: white;
+        font-size: 13px;
+        font-weight: bolder;
+        width: 300px; 
+        margin-left: 30px; 
+    }
+    .center .button{
+        margin: 25px 40px;
+    }
+    .button button{
+        height: 30px;
+        width: 250px;
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+        background: gray;
+        border: 1px solid gray;
+        outline: none;
+        cursor: pointer;
+        border-radius: 25px;
+        margin-top: 15px;
+        transition: 0.6s ease;
+    }
+    button:hover{  
+        background-color: white;
+        color: #000; 
+    }
+    .btn{
+        margin-left: 70px;
+    }
+    .bnn{
+        margin-left: 120px;
+    }
+    
+}
